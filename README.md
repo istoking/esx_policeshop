@@ -6,6 +6,9 @@ note: ammo can be added using esx_blackmarket, or by whatever method you prefer.
 
 Adds Shop to MRPD
 
+# Dependancies 
+mythic_notify - https://github.com/mythicrp/mythic_notify
+
 # Installation
 Import SQL file to database
 
