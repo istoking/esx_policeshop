@@ -137,7 +137,7 @@ Citizen.CreateThread(function()
 
 		for k,v in pairs(Config.Zones) do
 			for i = 1, #v.Pos, 1 do
-				if(Config.Type ~= -1 and Vdist2(coords, v.Pos[i].x, v.Pos[i].y, v.Pos[i].z) <= 5 then
+				if Vdist2(coords, v.Pos[i].x, v.Pos[i].y, v.Pos[i].z) <= 5 then
 					DrawMarker(Config.Type, v.Pos[i].x, v.Pos[i].y, v.Pos[i].z - 0.99, 0, 0, 0, 0, 0, 0, 1.5, 1.5, 1.0, 139, 16, 20, 250, false, false, 2, true, false, false, false)
 					DrawMarker(29, v.Pos[i].x, v.Pos[i].y, v.Pos[i].z + 0.25, 0, 0, 0, 0, 0, 0, 0.5, 0.5, 0.5, 139, 16, 20, 250, false, false, 2, true, false, false, false)
 				end
