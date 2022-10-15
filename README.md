@@ -1,3 +1,5 @@
+# UNMAINTAINED - I no longer work with ESX. QBCore is where it's at.
+
 # esx_policeshop
 A rework of esx_shops, to add a store to MRPD for police to get items at a reduced cost (food, repairkits, ammo, etc)
 
